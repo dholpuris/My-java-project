@@ -1,17 +1,40 @@
-# Hotel-Management-OOP-Project
+# My-java-project 
 
-This is a Hotel Management tool which can be used to manage
-activites like storing customer details, booking rooms of four different types, ordering food
-for particular rooms, unbooking rooms and showing the bill. It can also be used to see
-different room features and room availibility. It is a menu driven program and it runs until
-the user exits. File handling has been used to store the current status of the
-hotel(customer details, booked rooms, food ordered) in a file once the program exits so
-that when we restart the program, the old details are not lost. The program reads the file
-when it restarts to know the previous status of the hotel. Writing of file has been done in a
-separate thread as it can be done parallely. User defined exception is thrown if the user
-tries to book an already allotted room. Exception handling is properly done to deal with any
-kind of unexpected exception.
-##### Topics Covered-  
-Classes and Objects, Inheritance, File Handling with Objects, ArrayList, implementing
-Interface, User defined exception and Exception handling.
-# My-java-project
+**created this project to implement the GHAS ( Github advance security).**
+
+impleentation steps : 
+
+Create on java application and used multiple secuirty enhancement feature so GHAS will initiate their code base checks.
+
+**What checks has been performed **:
+
+Dependabot
+secret scanning 
+code scanning :
+
+**setting up the SAST scanning using CodeQl integration, below are the scanning result.**
+
+<img width="1153" alt="image" src="https://github.com/user-attachments/assets/7640ef35-abf6-4fda-97f3-672472e57cea" />
+
+
+<img width="195" alt="image" src="https://github.com/user-attachments/assets/c302fc25-0b9b-47fb-8213-a6f19853337b" />
+
+**Multiple security checks needs to be configure so if any critical/medium/low vulnerabilities detected it will showcase in the dashboard.**
+
+<img width="966" alt="image" src="https://github.com/user-attachments/assets/fa682134-8880-4e28-b199-ae73e98c436e" />
+
+
+**below are the scanning results : **
+
+<img width="996" alt="image" src="https://github.com/user-attachments/assets/5825a9e2-b45a-41c9-91bc-4160f1702b28" />
+
+
+**below are the code scanning results : **
+
+<img width="1268" alt="image" src="https://github.com/user-attachments/assets/b3919a54-620a-4ffb-a49d-7ce0f48124d1" />
+
+
+
+
+
+
